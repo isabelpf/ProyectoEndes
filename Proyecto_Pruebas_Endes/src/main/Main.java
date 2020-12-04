@@ -32,6 +32,8 @@ public class Main {
 		System.out.println(numero1+ "-"+numero2+"="+(numero1-numero2));
 		
 		teclado.close();
+		//voy hacer algunos cambios
+		
 
 	}
 
