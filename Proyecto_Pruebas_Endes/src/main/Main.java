@@ -67,8 +67,8 @@ public class Main {
 	 * TODO Implementation Isaac
 	 */
 	public static int calculaAreaTriangulo(int base, int altura) {
-		//TODO: 
-		return -1;
+		
+		return (base*altura)/2;
 	}
 	
 	public static boolean esParImpar(int numero) {
