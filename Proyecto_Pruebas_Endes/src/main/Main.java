@@ -49,11 +49,18 @@ public class Main {
 	public static int sumaNumeros(int x, int y) {
 		return (x+y);
 	}
-	
-		
+	/**
+	 * Metodo ProductoNumeros
+	 * 
+	 * Producto de dos números
+	 * 
+	 * @param x valor int
+	 * @param y valor int
+	 * @return la suma de x+y valor int
+	 */
 	public static int productNumeros(int x, int y) {
-		//TODO: 
-		return -1;
+		int resultado =x+y; 
+		return resultado;
 	}	
 
 	public static int calculaAreaTriangulo(int base, int altura) {
