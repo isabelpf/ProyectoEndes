@@ -63,6 +63,9 @@ public class Main {
 		return resultado;
 	}	
 
+	/**
+	 * TODO Implementation Isaac
+	 */
 	public static int calculaAreaTriangulo(int base, int altura) {
 		//TODO: 
 		return -1;
