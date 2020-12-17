@@ -34,8 +34,23 @@ public class Main {
 		teclado.close();
 		//voy hacer algunos cambios
 		
-
+		int j= sumaNumeros(2,3);
 	}
+	
+	/**
+	 * Metodo SumaNumeros
+	 * 
+	 * Suma dos números
+	 * Fecha Mod: 4 dic. 2020
+	 * @param x int int
+	 * @param y valor int
+	 * @return la suma de x+y valor int
+	 */
+	public static int sumaNumeros(int x, int y) {
+		return (x+y);
+	}
+	
+	
 
 	
 	
