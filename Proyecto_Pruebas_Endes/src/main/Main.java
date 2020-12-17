@@ -50,8 +50,61 @@ public class Main {
 		return (x+y);
 	}
 	
-	
+		
+	public static int productNumeros(int x, int y) {
+		//TODO: 
+		return -1;
+	}	
 
+	public static int calculaAreaTriangulo(int base, int altura) {
+		//TODO: 
+		return -1;
+	}
 	
+	public static boolean esParImpar(int numero) {
+		//TODO: 
+		return false;
+	}
+	
+	public static boolean esPrimo(int n) {
+		//TODO
+		return false;
+		
+	}
+	
+	public static boolean esPerfecto(int n) {
+		//TODO:
+		return false;
+	}
+	
+	public static boolean  esBisiesto(int year) {
+		//TODO:
+		return false;
+	}
+	
+	public static boolean esCapicua(int numero) {
+		//TODO:
+		return false;
+	}
+	
+	public static int numCifras(int numero) {
+		//TODO:
+		return -1;
+	}
+	
+	public static int numLetras(String cadena) {
+		//TODO:
+		return -1;
+	}
+	
+	public static char letraDni(String cadena) {
+		//TODO:
+		return '-';
+	}
+	
+	public static String cambiaLetras(String cadena) {
+		//TODO:
+		return "";
+	}
 	
 }
