@@ -34,8 +34,7 @@ public class Main {
 		teclado.close();
 		//voy hacer algunos cambios
 		
-		int j= sumaNumeros(2,3);
-		
+		int j= sumaNumeros(2,3);		
 		
 	}
 	
