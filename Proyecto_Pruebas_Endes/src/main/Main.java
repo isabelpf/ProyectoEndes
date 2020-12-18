@@ -49,6 +49,8 @@ public class Main {
 	public static int sumaNumeros(int x, int y) {
 		return (x+y);
 	}
+	//Inicio de Métodos
+	
 	/**
 	 * TODO Implementation Jose Luis  
 	 * 
@@ -143,5 +145,5 @@ public class Main {
 		//TODO:
 		return "";
 	}
-	
+	//Fin de Métodos
 }
