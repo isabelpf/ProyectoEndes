@@ -34,11 +34,7 @@ public class Main {
 		
 		//voy hacer algunos cambios
 		
-<<<<<<< HEAD
-		int j= sumaNumeros(2,3);
-=======
-		int j= sumaNumeros(2,3);		
->>>>>>> branch 'develop' of https://github.com/isabelpf/ProyectoEndes.git
+
 		
 	}
 	
