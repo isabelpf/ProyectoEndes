@@ -50,68 +50,95 @@ public class Main {
 		return (x+y);
 	}
 	/**
-	 * Metodo ProductoNumeros
+	 * TODO Implementation Jose Luis  
 	 * 
-	 * Producto de dos números
-	 * 
-	 * @param x valor int
-	 * @param y valor int
-	 * @return la suma de x+y valor int
 	 */
 	public static int productNumeros(int x, int y) {
-		int resultado =x+y; 
-		return resultado;
+		
+		return -1;
 	}	
 
 	/**
-	 * TODO Implementation Isaac
+	 * TODO Implementation Adrian Villadongos
+	 * 
 	 */
 	public static int calculaAreaTriangulo(int base, int altura) {
 		
-		return (base*altura)/2;
+		return -1;
 	}
 	
+
+	/**
+	 * TODO Implementation Anton Saiz
+	 * 
+	 */
 	public static boolean esParImpar(int numero) {
 		//TODO: 
 		return false;
 	}
 	
+	/**
+	 * TODO Implementation Isaac Ramirez
+	 * 
+	 */
 	public static boolean esPrimo(int n) {
 		//TODO
 		return false;
 		
 	}
-	
+	/**
+	 * TODO Implementation Alvaro Olloni
+	 * 
+	 */
 	public static boolean esPerfecto(int n) {
 		//TODO:
 		return false;
 	}
 	
+	/**
+	 * TODO Implementation Jorge Antonio
+	 * 
+	 */
 	public static boolean  esBisiesto(int year) {
 		//TODO:
 		return false;
 	}
-	
+	/**
+	 * TODO Implementation Alvaro Irurozqui
+	 * 
+	 */
 	public static boolean esCapicua(int numero) {
 		//TODO:
 		return false;
 	}
+	/**
+	 * TODO Implementation Ruben Grana
+	 * 
+	 */
 	
 	public static int numCifras(int numero) {
 		//TODO:
 		return -1;
 	}
+	/**
+	 * TODO Implementation Noelia García 
+	 */
 	
 	public static int numLetras(String cadena) {
 		//TODO:
 		return -1;
 	}
-	
+	/**
+	 * TODO Implementation Voluntary
+	 * 
+	 */
 	public static char letraDni(String cadena) {
 		//TODO:
 		return '-';
 	}
-	
+	/**
+	 * TODO Implementation Voluntary 
+	 */
 	public static String cambiaLetras(String cadena) {
 		//TODO:
 		return "";
