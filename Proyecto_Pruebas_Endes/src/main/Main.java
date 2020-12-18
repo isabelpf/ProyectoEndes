@@ -35,6 +35,11 @@ public class Main {
 		//voy hacer algunos cambios
 		
 		int j= sumaNumeros(2,3);
+		
+		/* PRUEBAS DEL MÉTODO */
+		String dni= new String ("10270433");
+		System.out.println(letraDni(dni));
+		
 	}
 	
 	/**
@@ -131,12 +136,20 @@ public class Main {
 		return -1;
 	}
 	/**
-	 * TODO Implementation Voluntary
+	 * Method letraDNI
 	 * 
+	 * Método que calcula la letra de un dni
+	 * 
+	 * @param cadena
+	 * @return
 	 */
 	public static char letraDni(String cadena) {
-		//TODO:
-		return '-';
+		char [] letras= {'T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'};
+		
+		int dni= Integer.parseInt(cadena);
+		int resto = dni % 23;		
+		
+		return letras[resto];
 	}
 	/**
 	 * TODO Implementation Voluntary 
