@@ -36,9 +36,6 @@ public class Main {
 		
 		int j= sumaNumeros(2,3);
 		
-		/* PRUEBAS DEL MÉTODO */
-		String dni= new String ("10270433");
-		System.out.println(letraDni(dni));
 		
 	}
 	
