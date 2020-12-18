@@ -31,10 +31,14 @@ public class Main {
 		
 		System.out.println(numero1+ "-"+numero2+"="+(numero1-numero2));
 		
-		teclado.close();
+		
 		//voy hacer algunos cambios
 		
 		int j= sumaNumeros(2,3);
+		String cadena;
+		System.out.println("Introduce una cadena: ");
+		cadena = teclado.nextLine();
+		System.out.println(numLetras(cadena));
 	}
 	
 	/**
@@ -122,13 +126,18 @@ public class Main {
 		//TODO:
 		return -1;
 	}
-	/**
-	 * TODO Implementation Noelia García 
-	 */
+/**
+ * Method numLetras
+ * Método que calcula cuántas letras tiene una cadena
+ * @param cadena
+ * @return
+ */
 	
 	public static int numLetras(String cadena) {
-		//TODO:
-		return -1;
+		
+		int resultado = cadena.length();
+		
+		return resultado;
 	}
 	/**
 	 * TODO Implementation Voluntary
