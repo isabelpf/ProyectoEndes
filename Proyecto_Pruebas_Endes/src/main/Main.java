@@ -62,12 +62,12 @@ public class Main {
 	}	
 
 	/**
-	 * TODO Implementation Adrian Villadongos
-	 * 
+	 * Dadas la base y la altura de un triangulo, se calcula el area correspondiente
+	 * Adrian Villadangos
 	 */
-	public static int calculaAreaTriangulo(int base, int altura) {
-		
-		return -1;
+	public static double calculaAreaTriangulo(int base, int altura) {
+		double areaTriangulo = (base*altura)/2;
+		return areaTriangulo;
 	}
 	
 
