@@ -34,7 +34,8 @@ public class Main {
 		teclado.close();
 		//voy hacer algunos cambios
 		
-		int j= sumaNumeros(2,3);
+		int j= sumaNumeros(2,3);		
+		
 	}
 	
 	/**
@@ -61,12 +62,12 @@ public class Main {
 	}	
 
 	/**
-	 * TODO Implementation Adrian Villadongos
-	 * 
+	 * Dadas la base y la altura de un triangulo, se calcula el area correspondiente
+	 * Adrian Villadangos
 	 */
-	public static int calculaAreaTriangulo(int base, int altura) {
-		
-		return -1;
+	public static double calculaAreaTriangulo(int base, int altura) {
+		double areaTriangulo = (base*altura)/2;
+		return areaTriangulo;
 	}
 	
 
@@ -138,12 +139,20 @@ public class Main {
 		return -1;
 	}
 	/**
-	 * TODO Implementation Voluntary
+	 * Method letraDNI
 	 * 
+	 * Método que calcula la letra de un dni
+	 * 
+	 * @param cadena
+	 * @return
 	 */
 	public static char letraDni(String cadena) {
-		//TODO:
-		return '-';
+		char [] letras= {'T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'};
+		
+		int dni= Integer.parseInt(cadena);
+		int resto = dni % 23;		
+		
+		return letras[resto];
 	}
 	/**
 	 * TODO Implementation Voluntary 
