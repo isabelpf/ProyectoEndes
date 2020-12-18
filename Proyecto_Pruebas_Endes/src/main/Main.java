@@ -125,7 +125,7 @@ public class Main {
 	}
 /**
  * Method numLetras
- * Método que calcula cuántas letras tiene una cadena
+ * Método que calcula cuántas letras tiene una cadena.
  * @param cadena
  * @return
  */
