@@ -30,15 +30,12 @@ public class Main {
 		numero2 = teclado.nextInt();
 		
 		System.out.println(numero1+ "-"+numero2+"="+(numero1-numero2));
-		
+		teclado.close();
 		
 		//voy hacer algunos cambios
 		
 		int j= sumaNumeros(2,3);
-		String cadena;
-		System.out.println("Introduce una cadena: ");
-		cadena = teclado.nextLine();
-		System.out.println(numLetras(cadena));
+		
 	}
 	
 	/**
@@ -132,7 +129,6 @@ public class Main {
  * @param cadena
  * @return
  */
-	
 	public static int numLetras(String cadena) {
 		
 		int resultado = cadena.length();
