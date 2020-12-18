@@ -98,12 +98,19 @@ public class Main {
 	}
 	
 	/**
-	 * TODO Implementation Jorge Antonio
-	 * 
+	 * @author Jorge Antonio
+	 * Fecha: 18 dic. 2020
+	 * @version: 1.0
+	 * @param year
+	 * @return
 	 */
-	public static boolean  esBisiesto(int year) {
-		//TODO:
-		return false;
+	public static boolean esBisiesto(int year) {
+		if ((year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0))) {
+			return true;
+		}
+		else {
+			return false;
+		}
 	}
 	/**
 	 * TODO Implementation Alvaro Irurozqui
