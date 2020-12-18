@@ -35,6 +35,7 @@ public class Main {
 		//voy hacer algunos cambios
 		
 		int j= sumaNumeros(2,3);
+		
 	}
 	
 	/**
@@ -61,12 +62,12 @@ public class Main {
 	}	
 
 	/**
-	 * TODO Implementation Adrian Villadongos
-	 * 
+	 * Dada la base y la altura de un triangulo, se calcula el area
+	 * Adrdian Villadangos
 	 */
-	public static int calculaAreaTriangulo(int base, int altura) {
-		
-		return -1;
+	public static double calculaAreaTriangulo(int base, int altura) {
+		double areaTriangulo = (base*altura)/2; 
+		return areaTriangulo;
 	}
 	
 
