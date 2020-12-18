@@ -34,7 +34,11 @@ public class Main {
 		
 		//voy hacer algunos cambios
 		
+<<<<<<< HEAD
 		int j= sumaNumeros(2,3);
+=======
+		int j= sumaNumeros(2,3);		
+>>>>>>> branch 'develop' of https://github.com/isabelpf/ProyectoEndes.git
 		
 	}
 	
@@ -62,12 +66,12 @@ public class Main {
 	}	
 
 	/**
-	 * TODO Implementation Adrian Villadongos
-	 * 
+	 * Dadas la base y la altura de un triangulo, se calcula el area correspondiente
+	 * Adrian Villadangos
 	 */
-	public static int calculaAreaTriangulo(int base, int altura) {
-		
-		return -1;
+	public static double calculaAreaTriangulo(int base, int altura) {
+		double areaTriangulo = (base*altura)/2;
+		return areaTriangulo;
 	}
 	
 
@@ -99,12 +103,19 @@ public class Main {
 	}
 	
 	/**
-	 * TODO Implementation Jorge Antonio
-	 * 
+	 * @author Jorge Antonio
+	 * Fecha: 18 dic. 2020
+	 * @version: 1.0
+	 * @param year
+	 * @return
 	 */
-	public static boolean  esBisiesto(int year) {
-		//TODO:
-		return false;
+	public static boolean esBisiesto(int year) {
+		if ((year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0))) {
+			return true;
+		}
+		else {
+			return false;
+		}
 	}
 	/**
 	 * TODO Implementation Alvaro Irurozqui
@@ -136,12 +147,20 @@ public class Main {
 		return resultado;
 	}
 	/**
-	 * TODO Implementation Voluntary
+	 * Method letraDNI
 	 * 
+	 * Método que calcula la letra de un dni
+	 * 
+	 * @param cadena
+	 * @return
 	 */
 	public static char letraDni(String cadena) {
-		//TODO:
-		return '-';
+		char [] letras= {'T','R','W','A','G','M','Y','F','P','D','X','B','N','J','Z','S','Q','V','H','L','C','K','E'};
+		
+		int dni= Integer.parseInt(cadena);
+		int resto = dni % 23;		
+		
+		return letras[resto];
 	}
 	/**
 	 * TODO Implementation Voluntary 
